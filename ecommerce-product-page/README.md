@@ -1,6 +1,6 @@
 # Frontend Mentor - E-commerce Product Page
 
-## This repository contains "Frontend Mentor Challange" built with React - Vite.
+## This repository contains "Frontend Mentor Challange" built with React - Vite and Tailwind CSS.
 
 Live [Frontend Mentor - E-commerce Product Page](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub)
 
