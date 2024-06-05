@@ -29,7 +29,7 @@ function Header() {
             </li>
           </ul>
 
-          <nav className={isOpen && "open"}>
+          <nav className={isOpen ? "open" : undefined}>
             <ul className="">
               <li>Collections</li>
               <li>Men</li>
@@ -45,10 +45,10 @@ function Header() {
               <button onClick={() => setCartIsOpen(!cartIsOpen)}>
                 <AiOutlineShoppingCart className="text-2xl text-slate-600" />
               </button>
-              <li>{cartIsOpen && <Cart />}</li>
             </li>
+            <li>{cartIsOpen && <Cart />}</li>
             <li>
-              <img className="w-12" src={avatar} alt="image" />
+              <img className="w-12 rounded-full" src={avatar} alt="image" />
             </li>
           </ul>
         </div>
