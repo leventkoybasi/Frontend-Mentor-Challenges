@@ -6,7 +6,7 @@ import close from "../assets/icon-close.svg";
 import avatar from "../assets/image-avatar.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-function Header() {
+function Header({ amount, setAmount }) {
   const [isOpen, setIsOpen] = useState(false);
   const [cartIsOpen, setCartIsOpen] = useState(false);
   return (
@@ -46,7 +46,15 @@ function Header() {
                 <AiOutlineShoppingCart className="text-2xl text-slate-600" />
               </button>
             </li>
-            <li>{cartIsOpen && <Cart />}</li>
+            <li>
+              {cartIsOpen && (
+                <Cart
+                  amount={amount}
+                  setAmount={setAmount}
+                  setCartIsOpen={setCartIsOpen}
+                />
+              )}
+            </li>
             <li>
               <img className="w-12 rounded-full" src={avatar} alt="image" />
             </li>

@@ -10,11 +10,15 @@ import Lightbox from "./components/Lightbox";
 function App() {
   const [products] = useState(data);
   const [value, setValue] = useState(0);
-  const [amount, setAmount] = useState(0);
+
   const [slideIndex, setSlideIndex] = useState(1);
   const [showLightbox, setShowLightbox] = useState(false);
 
+  const [price, setPrice] = useState("$" + 125 + ".00");
+  const [amount, setAmount] = useState(0);
+
   const { mainImage } = products[value];
+  const [cartIsOpen, setCartIsOpen] = useState(false);
 
   const nextSlide = () => {
     if (slideIndex !== products.length) {
@@ -37,7 +41,12 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header
+        amount={amount}
+        setAmount={setAmount}
+        cartIsOpen={cartIsOpen}
+        setCartIsOpen={setCartIsOpen}
+      />
       {showLightbox && (
         <Lightbox
           products={products}
@@ -121,7 +130,7 @@ function App() {
           </p>
           <div className=" flex flex-wrap items-center justify-between lg:flex-col lg:items-start lg:gap-2">
             <ul className="flex items-center gap-5">
-              <li className=" text-slate-900 font-bold text-2xl">$125.00</li>
+              <li className=" text-slate-900 font-bold text-2xl">{price}</li>
               <li className=" bg-orange-100 py-1 px-2 text-orange-400  tracking-wide text-sm font-bold inline-block rounded shadow">
                 50%
               </li>
