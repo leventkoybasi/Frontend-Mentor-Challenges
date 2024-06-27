@@ -16,6 +16,14 @@ This repository showcases the frontend projects I have completed on the Frontend
 - **Technologies:** HTML, CSS, React, Tailwind
 - **Live Preview:** [Demo](https://e-commerce-frontendmentor-451.netlify.app/)
 
+### [Project 2: contact form](https://github.com/leventkoybasi/Frontend-Mentor-Challenges/tree/main/contact-form)
+
+![contact form](https://res.cloudinary.com/dz209s6jk/image/upload/v1715865267/Challenges/ianldfh3rogt7m3kbzml.jpg)
+
+- **Description:** This project aims to create a simple and stylish contact form.
+- **Technologies:** HTML, CSS, React,
+- **Live Preview:** [Demo](https://e-commerce-frontendmentor-451.netlify.app/)
+
 ## Why These Projects?
 
 Frontend Mentor projects provide an excellent opportunity to solve real-world UI/UX design challenges. Each project aims to code a specific design to pixel perfection using modern web technologies. The skills I have developed and enhanced through these projects include:
