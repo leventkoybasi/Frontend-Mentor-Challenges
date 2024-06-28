@@ -1,11 +1,13 @@
 import { useState } from "react";
-import "./App.css";
+import "./index.css"
+import Form from "./components/Form";
 
 function App() {
   return (
-    <>
-      <h2>Contact Form Main</h2>
-    </>
+    <div className="container">
+    <h1>Contact Us</h1>
+      <Form />
+    </div>
   );
 }
 
