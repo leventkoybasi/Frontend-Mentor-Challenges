@@ -1,6 +1,6 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import 'modern-normalize';
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import "modern-normalize";
 
 /* Reset */
 * {
@@ -9,18 +9,19 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-family: sans-serif;
 }
 /* Root */
 :root {
   /* Font */
-  --font-family-karla: 'Karla', sans-serif;
+  --font-family-karla: "Karla", sans-serif;
   --font-weight-light: 400;
   --font-weight-bold: 700;
   /* Color */
-  
+
   --light-green: hsl(148, 38%, 91%);
   --green: hsl(169, 82%, 27%);
   --red: hsl(0, 66%, 54%);
@@ -42,11 +43,16 @@ body {
 
 .container {
   background-color: var(--white);
-  width: 650px;
+  width: 750px;
   padding: 30px;
   border-radius: 15px;
 }
 
+.container > h1 {
+  margin: 10px 0 30px 0;
+  color: var(--dark-grey);
+  font-family: var(--font-weight-bold);
+}
 form {
   display: flex;
   flex-direction: column;
@@ -57,12 +63,11 @@ form {
   display: flex;
   gap: 10px;
 }
-.form-control {
+input {
   width: 100%;
-  padding: .5rem;
-  margin-top: .5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
   font-family: inherit;
   border: solid 1px var(--medium-grey);
-  border-radius: .35rem;
-
+  border-radius: 0.35rem;
 }
