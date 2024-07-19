@@ -8,9 +8,15 @@ This repository showcases the frontend projects I have completed on the Frontend
 
 ## Project List
 
-### [Project 1: e-commerce product](https://github.com/leventkoybasi/Frontend-Mentor-Challenges/tree/main/ecommerce-product-page)
+### [Project 1: e-commerce product](https://frontend-mentor-challange-e-commerce.netlify.app/)
 
-![e-commerce product](https://res.cloudinary.com/dz209s6jk/image/upload/v1715957580/Challenges/nhkdufgdnwztbo4q6hsf.jpg)
+# My Projects
+
+## E-commerce Product
+
+[![e-commerce product](https://res.cloudinary.com/dz209s6jk/image/upload/v1715957580/Challenges/nhkdufgdnwztbo4q6hsf.jpg)](https://frontend-mentor-challange-e-commerce.netlify.app/)
+
+Check out the [live site](https://frontend-mentor-challange-e-commerce.netlify.app/) for this project.
 
 - **Description:** This project aims to create a simple and stylish e-commerce product site.
 - **Technologies:** HTML, CSS, React, Tailwind
