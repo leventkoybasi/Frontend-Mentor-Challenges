@@ -61,9 +61,7 @@ function Form({ onSuccess, shouldReset }) {
       {/* First & Last Name */}
       <div className="name-container">
         <div className="form-control">
-          <label htmlFor="firstName">
-            First Name<span className="required-input">*</span>
-          </label>
+          <label htmlFor="firstName">First Name</label>
           <input
             className={errors.firstName ? "error" : undefined}
             type="text"
@@ -82,9 +80,7 @@ function Form({ onSuccess, shouldReset }) {
           </p> */}
         </div>
         <div className="form-control">
-          <label htmlFor="lastName">
-            Last Name<span className="required-input">*</span>
-          </label>
+          <label htmlFor="lastName">Last Name</label>
           <input
             className={errors.lastName ? "error" : undefined}
             type="text"
@@ -105,9 +101,7 @@ function Form({ onSuccess, shouldReset }) {
       </div>
       {/* e-mail */}
       <div className="form-control">
-        <label htmlFor="email">
-          Email Address<span className="required-input">*</span>
-        </label>
+        <label htmlFor="email">Email Address</label>
         <input
           className={errors.email ? "error" : undefined}
           type="email"
@@ -128,9 +122,7 @@ function Form({ onSuccess, shouldReset }) {
       {/* query type */}
       <div className="form-control">
         <fieldset>
-          <legend>
-            Query Type<span className="required-input">*</span>
-          </legend>
+          <legend>Query Type</legend>
           <div className="radio-container">
             <div>
               <input
@@ -169,9 +161,7 @@ function Form({ onSuccess, shouldReset }) {
       </div>
       {/* message */}
       <div className="form-control">
-        <label htmlFor="message">
-          Message<span className="required-input">*</span>
-        </label>
+        <label htmlFor="message">Message</label>
         <textarea
           className={errors.message ? "error" : undefined}
           name="message"
@@ -200,7 +190,6 @@ function Form({ onSuccess, shouldReset }) {
           />
           <label htmlFor="consent">
             I consent to being contacted by theteam
-            <span className="required-input">*</span>
           </label>
         </div>
         {errors.consent && (
