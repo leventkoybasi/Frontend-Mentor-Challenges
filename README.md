@@ -9,26 +9,28 @@ This repository showcases the frontend projects I have completed on the Frontend
 ## Project List
 
 ### [Project 1: e-commerce product](https://frontend-mentor-challange-e-commerce.netlify.app/)
+### [Project 2: contact form](https://frontend-mentor-challange-form-contol.netlify.app/)
 
 # My Projects
 
 ## E-commerce Product
 
-[![e-commerce product](https://res.cloudinary.com/dz209s6jk/image/upload/v1715957580/Challenges/nhkdufgdnwztbo4q6hsf.jpg)](https://frontend-mentor-challange-e-commerce.netlify.app/)
+[![e-commerce Product](https://res.cloudinary.com/dz209s6jk/image/upload/v1715957580/Challenges/nhkdufgdnwztbo4q6hsf.jpg)](https://frontend-mentor-challange-e-commerce.netlify.app/)
 
 Check out the [live site](https://frontend-mentor-challange-e-commerce.netlify.app/) for this project.
 
 - **Description:** This project aims to create a simple and stylish e-commerce product site.
 - **Technologies:** HTML, CSS, React, Tailwind
-- **Live Preview:** [Demo](https://e-commerce-frontendmentor-451.netlify.app/)
 
-### [Project 2: contact form](https://github.com/leventkoybasi/Frontend-Mentor-Challenges/tree/main/contact-form)
+## Contact Form
 
-![contact form](https://res.cloudinary.com/dz209s6jk/image/upload/v1715865267/Challenges/ianldfh3rogt7m3kbzml.jpg)
+[![Contact Form Product](https://res.cloudinary.com/dz209s6jk/image/upload/v1715865267/Challenges/ianldfh3rogt7m3kbzml.jpg)](https://frontend-mentor-challange-form-contol.netlify.app/)
+
+Check out the [live site](https://frontend-mentor-challange-form-contol.netlify.app/) for this project.
 
 - **Description:** This project aims to create a simple and stylish contact form.
 - **Technologies:** HTML, CSS, React,
-- **Live Preview:** [Demo](https://e-commerce-frontendmentor-451.netlify.app/)
+
 
 ## Why These Projects?
 
